@@ -12,8 +12,8 @@ In this case, the file has a commented section serving as a reminder some existi
 - **Note:** If you don't have a .gitconfig` file, create one in your home directory and add the following lines to it.
 	```bash
    [user]
-		name = your name
-   		email = your email
+       name = your name
+       email = your email
    ```
 1. Set your default code editor for git to facilitate writing commits in the future.
    ```bash
@@ -23,11 +23,13 @@ In this case, the file has a commented section serving as a reminder some existi
 	```bash
    git config --global template.commit "path to file, example: ~/.gitmessage"
    ```
-   If done correctly, running git `config --global --edit`` should display this section among others.
+If done correctly, running git `config --global --edit` should display this section among others.
+<img width="500" alt="Screen Shot 2023-11-22 at 6 19 56 PM" src="https://github.com/Dvaid0805/.gitmessage/assets/81176650/cbdf04c2-bfc5-4a8d-b7aa-7a06bc9cde14">
+
 3. Create the file specified in step 2 and fill it with the information found in my .gitmessage; just copy and paste.
 
 After after these steps, when you run the `git commit` command, you should see this.
-
+<img width="500" alt="Screen Shot 2023-11-22 at 6 42 08 PM" src="https://github.com/Dvaid0805/.gitmessage/assets/81176650/4473d38a-19b3-4d0b-844d-1367e9605426">
 
 ## P.S.
 If following the steps above didn't work for you, click the emoji below.
