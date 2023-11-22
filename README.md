@@ -9,7 +9,7 @@ Conventional Commits is a commit message standard designed to standardize the st
 In this case, the file has a commented section serving as a reminder some existing rules and an uncommented section that serves as a basic template for any commit when using the `git commit` command.
 
 ## ⚠️ Usage
-- **Note:** If you don't have a .gitconfig` file, create one in your home directory and add the following lines to it.
+- **Note:** If you don't have a `.gitconfig` file, create one in your home directory and add the following lines to it.
 	```bash
    [user]
        name = your name
