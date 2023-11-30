@@ -21,7 +21,7 @@ In this case, the file has a commented section serving as a reminder some existi
    ```
 2. Create a `template` section in your gitconfig file.
 	```bash
-   git config --global template.commit "path to file, example: ~/.gitmessage"
+   git config --global commit.template "path to file, example: ~/.gitmessage"
    ```
 If done correctly, running git `config --global --edit` should display this section among others.
 <img width="500" alt="Screen Shot 2023-11-22 at 6 19 56 PM" src="https://github.com/Dvaid0805/.gitmessage/assets/81176650/cbdf04c2-bfc5-4a8d-b7aa-7a06bc9cde14">
